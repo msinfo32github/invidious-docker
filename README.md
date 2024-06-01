@@ -11,3 +11,5 @@ Cronjob:
 1 */1 * * * docker restart invidious-invidious-2
 2 */1 * * * docker restart invidious-invidious-3
 ```
+
+You may not really need this cronjob, as I've found it works perfectly without - however, if you encounter stability problems... it's worth a try.
